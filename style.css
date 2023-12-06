@@ -1,0 +1,293 @@
+.home {
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.games {
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.aboutme {
+  background-image: url(img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.navbar {
+  width: 85%;
+  margin: auto;
+  padding: 35px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  width: 200px;
+  height: 50px;
+  cursor: pointer;
+}
+.navbar ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
+  position: relative;
+}
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+.navbar ul li::after {
+  content: '';
+  height: 3px;
+  width: 0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  transition: 0.5s;
+}
+.navbar ul li:hover::after {
+  width: 100%;
+}
+.content {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: white;
+}
+.content h1 {
+  font-size: 30px;
+  margin-top: 80px;
+}
+.content p {
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+.contentgames {
+  margin-top: 5%;
+  text-align: center;
+  color: white;
+}
+.contentgames h1 {
+  font-size: 30px;
+  margin-top: 80px;
+}
+.contentgames p {
+  margin: 20px auto;
+  font-weight: 100;
+  line-height: 25px;
+}
+img {
+  height: 50px;
+  width: 50px;
+  border-radius: 20px;
+}
+.options {
+  display: flex;
+  margin-top: 5%;
+}
+.options .eaglercraft {
+  border: inset;
+  border-color: white;
+  width: 200px;
+  background-color: darkred;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 13%;
+  margin-right: 5%;
+}
+.options .lol {
+  border: inset;
+  border-color: white;
+  width: 200px;
+  background-color: darkred;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.options .cookie {
+  border: inset;
+  border-color: white;
+  width: 200px;
+  background-color: darkred;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.options1 {
+  display: flex;
+}
+.options1 .tetris {
+  border: inset;
+  border-color: white;
+  width: 200px;
+  background-color: darkred;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 13%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.options1 .mario {
+  border: inset;
+  border-color: white;
+  width: 200px;
+  background-color: darkred;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.options1 .parkour {
+  border: inset;
+  border-color: white;
+  width: 200px;
+  background-color: darkred;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+}
+.options2 {
+  display: flex;
+}
+.options2 .dinosaur {
+  border: inset;
+  border-color: white;
+  width: 200px;
+  background-color: darkred;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 13%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.options2 .comingsoon1 {
+  border: inset;
+  border-color: white;
+  width: 200px;
+  background-color: darkred;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.options2 .comingsoon2 {
+  border: inset;
+  border-color: white;
+  width: 200px;
+  background-color: darkred;
+  border-radius: 20px;
+  padding: 15px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.notsupported {
+  display: none;
+}
+.phone {
+  display: none;
+}
+.toobad {
+  display: none;
+}
+.options a {
+  color: white;
+  text-decoration: none;
+}
+.options1 a {
+  color: white;
+  text-decoration: none;
+}
+.options2 a {
+  color: white;
+  text-decoration: none;
+}
+@media only screen and (max-width: 820px) {
+  .home {
+    background-color: black;
+    background-image: none;
+  }
+  .games {
+    background-color: black;
+    background-image: none;
+  }
+  .options {
+    display: none;
+  }
+  .gametitle {
+    display: none;
+  }
+  .notsupported {
+    display: block;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .home {
+    background-color: black;
+    background-image: none;
+  }
+  .games {
+    background-color: black;
+    background-image: none;
+  }
+  .options {
+    display: none;
+  }
+  .gametitle {
+    display: none;
+  }
+  .notsupported {
+    display: block;
+  }
+  .navbar {
+    display: none;
+  }
+  .phone {
+    display: block;
+    width: 100%;
+  }
+  .toobad {
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+  }
+  .toobad h1 {
+    font-size: 30px;
+    margin-top: 80px;
+  }
+  .toobad p {
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  .content {
+    display: none;
+  }
+}
